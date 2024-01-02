@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------
+Program Author: Shakil Muhammad (101259661)
+
+Purpose: The program will present the end user with a menu of options to view restaurant data, including 
+reservations and patrons. The user will have the option to print all the patron (customer) data, or print 
+all the reservations at the restaurant, or print out the reservations for one patron only.
+
+Headers: <stdio.h>, <string.h>, <stdlib.h>
+Header file: defs.h
+Data files: load.c, patrons.c, restaurant.c, resv.c
+Source code: main.c
+
+Compilation Command: gcc -Wall -o a4 main.c load.c patrons.c restaurant.c resv.c
+
+Launching instructions: 
+    Start program using: ./a4
+    Select function option from menu, user input is only expected for option 3 (resv by patron)
+----------------------------------------------------------------------------------------------------
