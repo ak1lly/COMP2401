@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------
+Program Author: Shakil Muhammad (101259661)
+
+Purpose: The program will present the end user with a menu of options to manipulate a collection of 
+books that have been rated (on a scale of 0 to 5) by members of a book club. The user will have the 
+option to print all the books in the collection, or print the top rated books only, or add a new book 
+to the collection.
+
+Headers: <stdio.h>, <string.h>, <stdlib.h>
+Header file: defs.h
+Data files: books.c, club.c, load.c
+Source code: main.c
+
+Compilation Command: gcc -Wall -o a3 main.c books.c club.c load.c
+
+Launching instructions: 
+    Start program using: ./a3
+    Select function option from menu, user input is only expected for option 3 (add book)
+----------------------------------------------------------------------------------------------------
