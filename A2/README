@@ -1,0 +1,16 @@
+----------------------------------------------------------------------------------------------------
+Program Author: Shakil Muhammad (101259661)
+
+Purpose: Encrypt a string of plain text with a user-set key according to a predetermined set of rules
+and decrypt encoded messages with the correct key
+
+Headers: <stdio.h>, <string.h>
+Source code: a2-Shakil.c
+
+Compilation Command: gcc -Wall -o a2 a2-Shakil.c
+
+Launching instructions: 
+    Start program using: ./a2
+    Select function (encrypt or decrypt), initalize preffered key and input plain text or an encoded 
+    message
+----------------------------------------------------------------------------------------------------
