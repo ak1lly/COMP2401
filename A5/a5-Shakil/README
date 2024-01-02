@@ -1,0 +1,47 @@
+----------------------------------------------------------------------------------------------------
+Program Author: Shakil Muhammad (101259661)
+
+Purpose: the program will simulate Timmy and Harolds escape through Dragons Hollow, as a variation of the 
+client-server architecture. Each instance of the program will use command line arguments to determine 
+whether to behave as either a server process which simulates our heroes escape and displays its output, 
+or as a client process which connects to a running server in order to receive and display the identical 
+escape output.
+
+Headers:
+    <stdio.h>
+    <stdlib.h>
+    <unistd.h>
+    <string.h>
+    <time.h>
+    <pthread.h>
+    <semaphore.h>
+    <signal.h>
+    <sys/types.h>
+    <sys/socket.h>
+    <netinet/in.h>
+    <arpa/inet.h>
+
+Header file: 
+    defs.h
+
+Data files: 
+    connect.c  
+    escape.c  
+    flyer.c  
+    hero.c  
+    interact.c  
+    view.c  
+
+Source code: 
+    main.c
+
+Compilation Command: make
+
+Launching instructions: 
+    Program must be launched >1 times,
+    1. if launched without any command line arguments, the program will behave as a server
+    2. any additional launches must include a command line argument of a valid IP address to connect a
+       client to the server Example: ./a5 127.0.0.1
+    The server process will run the hollow simulation, and every client process will view the simulation  
+
+----------------------------------------------------------------------------------------------------
